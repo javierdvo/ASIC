@@ -1,0 +1,122 @@
+<!DOCTYPE GatewaySymbol>
+<symbol version="5" >
+ <created version="2.12.10.R" user="Unavailable" date="2015-03-25T14:26:29" />
+ <modified version="2.12.10.R" user="Unavailable" date="2015-03-25T14:31:29" />
+ <lines>
+  <line>
+   <start x="-80" y="0" />
+   <end x="-20" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-20" y="0" />
+   <end x="-20" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-20" y="-40" />
+   <end x="20" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="20" y="0" />
+   <end x="-20" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-20" y="40" />
+   <end x="-20" y="1" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-20" y="1" />
+   <end x="-20" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="28" y="0" />
+   <end x="80" y="0" />
+   <thickness thickness="1" />
+  </line>
+ </lines>
+ <arcs>
+  <arc>
+   <coord x="24" y="0" />
+   <properties stop="360" radius="4" start="0" />
+   <thickness thickness="1" />
+  </arc>
+ </arcs>
+ <comments/>
+ <pins>
+  <pin>
+   <name text="Y" >
+    <coord x="87" y="-8" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="80" y="0" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="80" y="0" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="A" >
+    <coord x="-99" y="-9" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-80" y="0" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="-80" y="0" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="input" />
+  </pin>
+ </pins>
+ <inheritedNets/>
+ <simulationAttributes/>
+ <attributes>
+  <attribute>
+   <name visibility="false" text="PATH" />
+   <value visibility="value" text="?" />
+   <coord x="-6" y="-7" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LN" />
+   <value visibility="value" text="?" />
+   <coord x="29" y="62" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LP" />
+   <value visibility="value" text="?" />
+   <coord x="28" y="-61" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WN" />
+   <value visibility="value" text="?" />
+   <coord x="26" y="43" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WP" />
+   <value visibility="value" text="?" />
+   <coord x="25" y="-80" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+ </attributes>
+ <definitions/>
+</symbol>

@@ -1,0 +1,152 @@
+<!DOCTYPE GatewaySymbol>
+<symbol version="5" >
+ <created version="2.12.10.R" user="Unavailable" date="2015-04-15T15:55:37" />
+ <modified version="2.12.10.R" user="Unavailable" date="2015-06-03T16:36:33" />
+ <lines>
+  <line>
+   <start x="-30" y="0" />
+   <end x="-30" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-30" y="40" />
+   <end x="-30" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="46" y="20" />
+   <end x="40" y="20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="1" y="-40" />
+   <end x="-30" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="1" y="40" />
+   <end x="-30" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="46" y="20" />
+   <end x="80" y="20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-50" y="-20" />
+   <end x="-30" y="-20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-48" y="20" />
+   <end x="-30" y="20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="0" y="-40" />
+   <end x="40" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="40" y="-40" />
+   <end x="40" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="40" y="0" />
+   <end x="40" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="40" y="40" />
+   <end x="0" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="0" y="61" />
+   <end x="0" y="40" />
+   <thickness thickness="1" />
+  </line>
+ </lines>
+ <arcs/>
+ <comments/>
+ <pins>
+  <pin>
+   <name text="S" >
+    <coord x="85" y="13" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="80" y="20" />
+   <type type="normal" />
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="Y" >
+    <coord x="-68" y="-29" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="-20" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="X" >
+    <coord x="-67" y="11" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="20" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="Cin" >
+    <coord x="-35" y="62" />
+    <properties size="12" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="0" y="60" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+ </pins>
+ <inheritedNets/>
+ <simulationAttributes/>
+ <attributes>
+  <attribute>
+   <name visibility="false" text="PATH" />
+   <value visibility="value" text="?" />
+   <coord x="0" y="0" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WP" />
+   <value visibility="value" text="?" />
+   <coord x="38" y="-77" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WN" />
+   <value visibility="value" text="?" />
+   <coord x="40" y="40" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LP" />
+   <value visibility="value" text="?" />
+   <coord x="43" y="-59" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LN" />
+   <value visibility="value" text="?" />
+   <coord x="43" y="61" />
+   <properties size="12" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+ </attributes>
+ <definitions/>
+</symbol>

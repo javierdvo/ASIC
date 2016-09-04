@@ -1,0 +1,303 @@
+<!DOCTYPE GatewaySymbol>
+<symbol version="5" >
+ <created version="2.12.10.R" user="Unavailable" date="2015-04-15T15:55:37" />
+ <modified version="2.12.10.R" user="Unavailable" date="2015-06-03T16:22:35" />
+ <lines>
+  <line>
+   <start x="-30" y="0" />
+   <end x="-30" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-30" y="40" />
+   <end x="-30" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="1" y="40" />
+   <end x="-30" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-50" y="-20" />
+   <end x="-30" y="-20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-48" y="20" />
+   <end x="-30" y="20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="40" y="40" />
+   <end x="0" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-50" y="0" />
+   <end x="-30" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-50" y="-40" />
+   <end x="-30" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-30" y="-40" />
+   <end x="-30" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-30" y="-54" />
+   <end x="51" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="51" y="-54" />
+   <end x="51" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="51" y="40" />
+   <end x="39" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="10" y="60" />
+   <end x="10" y="40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="20" y="-70" />
+   <end x="20" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="40" y="-70" />
+   <end x="40" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="0" y="-70" />
+   <end x="0" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="-20" y="-70" />
+   <end x="-20" y="-54" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="70" y="-40" />
+   <end x="51" y="-40" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="70" y="-20" />
+   <end x="51" y="-20" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="70" y="0" />
+   <end x="51" y="0" />
+   <thickness thickness="1" />
+  </line>
+  <line>
+   <start x="70" y="20" />
+   <end x="51" y="20" />
+   <thickness thickness="1" />
+  </line>
+ </lines>
+ <arcs/>
+ <comments/>
+ <pins>
+  <pin>
+   <name text="C4" >
+    <coord x="54" y="21" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="70" y="20" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="70" y="20" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="A2" >
+    <coord x="-45" y="-21" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="-20" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="A0" >
+    <coord x="-45" y="19" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="20" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="C0" >
+    <coord x="-6" y="41" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="10" y="60" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="10" y="60" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="C3" >
+    <coord x="52" y="0" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="70" y="0" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="70" y="0" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="C2" >
+    <coord x="52" y="-20" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="70" y="-20" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="70" y="-20" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="C1" >
+    <coord x="55" y="-40" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="70" y="-40" />
+   <type type="normal" >
+    <discipline>
+     <value text="" />
+     <coord x="70" y="-40" />
+     <properties size="12" justification="right" angle="0" />
+    </discipline>
+   </type>
+   <direction direction="output" />
+  </pin>
+  <pin>
+   <name text="A1" >
+    <coord x="-46" y="0" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="0" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="A3" >
+    <coord x="-45" y="-40" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-50" y="-40" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="B0" >
+    <coord x="-36" y="-68" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="-20" y="-70" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="B1" >
+    <coord x="-17" y="-68" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="0" y="-70" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="B2" >
+    <coord x="4" y="-67" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="20" y="-70" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+  <pin>
+   <name text="B3" >
+    <coord x="25" y="-68" />
+    <properties size="8" visibility="true" justification="left" angle="0" />
+   </name>
+   <coord x="40" y="-70" />
+   <type type="normal" />
+   <direction direction="input" />
+  </pin>
+ </pins>
+ <inheritedNets/>
+ <simulationAttributes/>
+ <attributes>
+  <attribute>
+   <name visibility="false" text="PATH" />
+   <value visibility="value" text="?" />
+   <coord x="0" y="0" />
+   <properties size="8" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WP" />
+   <value visibility="value" text="?" />
+   <coord x="56" y="-81" />
+   <properties size="8" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="WN" />
+   <value visibility="value" text="?" />
+   <coord x="40" y="40" />
+   <properties size="8" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LP" />
+   <value visibility="value" text="?" />
+   <coord x="56" y="-65" />
+   <properties size="8" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+  <attribute>
+   <name visibility="true" text="LN" />
+   <value visibility="value" text="?" />
+   <coord x="43" y="61" />
+   <properties size="8" justification="left" fixed="false" minimum="" showoninstance="true" angle="0" maximum="" />
+   <type value="normal" />
+  </attribute>
+ </attributes>
+ <definitions/>
+</symbol>

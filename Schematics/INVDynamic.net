@@ -1,0 +1,15 @@
+* Gateway 2.12.10.R Spice Netlist Generator
+* Workspace name:       K:\work.workspace
+* Simulation name:      K:\Final Report Data\Schematics\INVDynamic.schlr
+* Simulation timestamp: 10-6-2015 17:40:09
+
+* Schematic name: INVDynamic
+C1 Y GND 100n
+M1 Y A NET1 NET1 NMOD L=LN W=WN
+M2 Y clk VDD VDD PMOD L=LP W=WP
+M3 NET1 clk GND GND NMOD L=LN W=WN
+
+* Global Nodes Declarations
+.GLOBAL GND VDD
+
+* End of the netlist
